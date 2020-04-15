@@ -1,4 +1,4 @@
 Дополнительная информация:  
-pip
-zsh
-id_rsa
+pip  
+zsh  
+id_rsa  
