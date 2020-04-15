@@ -2,5 +2,5 @@
 [ansible documentation](https://docs.ansible.com/)  
 [asible galaxy](https://galaxy.ansible.com/)  
 best practice [[docs.ansible.com]](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html) [[ansible.com]](https://www.ansible.com/blog/ansible-best-practices-essentials) 
-[install pip](https://andreyex.ru/centos-7/kak-ustanovit-pip-na-centos-7/)  
+[install pip](https://github.com/pypa/pip/)    
 [install ansible](https://docs.ansible.com/ansible-lint/installing/installing.html)  
