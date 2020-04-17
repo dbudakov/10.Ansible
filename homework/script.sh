@@ -13,4 +13,8 @@ for i in staging-nginx-01
     a=$(vagrant ssh-config $i|awk '/Port/ {print $2}')
    sed -i 's/port_'$i'/'$a'/' ./inventories/staging/staging.yml
   done
+  
+ansible -i inventories/production/ prod-nginx-01 -m ping
+ansible -i inventories/production/ prod-nginx-02 -m ping
+ansible -i inventories/staging/ staging-nginx-01 -m ping
 
