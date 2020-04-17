@@ -1,0 +1,10 @@
+- name: "main playbook"
+  hosts: all
+  become: true
+  roles:
+    - role: nginx
+
+  tasks:
+    - include: roles/nginx/tasks/nginx.yml
+    ## тестовая задача
+    #- include: roles/nginx/tasks/ping.yml
