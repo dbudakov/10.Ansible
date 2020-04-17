@@ -4,3 +4,4 @@
 best practice [[docs.ansible.com]](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html) [[ansible.com]](https://www.ansible.com/blog/ansible-best-practices-essentials)   
 [install pip](https://github.com/pypa/pip/)    
 [install ansible](https://docs.ansible.com/ansible-lint/installing/installing.html)  
+[Ansible На Русском Языке](https://www.youtube.com/watch?v=Ck1SGolr6GI&list=PLg5SS_4L6LYufspdPupdynbMQTBnZd31N)  
