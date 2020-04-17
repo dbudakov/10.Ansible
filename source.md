@@ -6,3 +6,4 @@ best practice [[docs.ansible.com]](https://docs.ansible.com/ansible/latest/user_
 [install ansible](https://docs.ansible.com/ansible-lint/installing/installing.html)  
 [Ansible На Русском Языке](https://www.youtube.com/watch?v=Ck1SGolr6GI&list=PLg5SS_4L6LYufspdPupdynbMQTBnZd31N)  
 [jinja 2](https://jinja.palletsprojects.com/en/2.10.x/)
+[jinja 2 template}(https://jinja.palletsprojects.com/en/2.10.x/templates/)
