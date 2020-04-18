@@ -20,12 +20,8 @@
   yum:
     name: nginx
     state: present
-
-- name: "Start NGINX server"
-  systemd:
-    name: nginx
-    state: started
-    enabled: true
+  notify:
+    - start nginx
 
 - name: "Copy index.html"
   template:

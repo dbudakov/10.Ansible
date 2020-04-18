@@ -6,5 +6,8 @@
 
   tasks:
     - include: roles/nginx/tasks/nginx.yml
+
+  handlers:
+    - include: roles/nginx/handlers/run_nginx.yml
     ## тестовая задача
     #- include: roles/nginx/tasks/ping.yml
