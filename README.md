@@ -10,10 +10,27 @@
 \* Сделать все это с использованием Ansible роли
 
 ## Решение  
-После команды `git clone` перейти в  каталог `./10.Ansible/homework` запустить `scritpt.sh`, скрипт запустит 'vagrant up' и вытянет соответствующие порты для `localhost` каждой виртуалки в файл `inventory`. Плюс скрипт соберет информацию для файла `~/.ssh/know_hosts`, чтобы при запуске `playbook` локальная машина уже знала целевые хосты. `AD HOC` команды выполнятся в ошибку с ошибками, но соберёт инфу, это штатно и происходит потому что ключи для подключения вынесены в каталог `./roles/nginx/vars/main`
-Далее из каталога `./10.Ansible/homework` запускаем `playbook`  
+После команды `git clone` перейти в  каталог `./10.Ansible/homework` 
+```
+cd ./10.Ansible/homework
+```
+поднять стенд:
+```
+vagrant up 
+vagrant up prod-nginx-01
+vagrant up prod-nginx-02
+vagrant up staging-nginx-01
+```
+`playbook` отработает в рамках `Vagrantfile`, проверить работу `nginx` можно будет по следующим адресам:
+```
+curl 192.168.11.151:8080 # для prod-nginx-01
+curl 192.168.11.152:8080 # для prod-nginx-02
+curl 192.168.11.200:8080 # для staging-nginx-01
+```
+с прошлой версии решения остались каталог `inventories/` и файл `scritpt.sh` для ручного запуска `playbook`, а скрипт используется для парсинга портов виртуалок на `localhost` в файлы `inventories/` для подключения к виртуалкам по ssh
 
 ```
+./script_sh
 ansible-playbook -i inventories/ nginx.yml
 ```
 
