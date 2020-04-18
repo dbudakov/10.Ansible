@@ -1,7 +1,5 @@
 #!/bin/bash
 
-vagrant up
-
 for i in prod-nginx-01 prod-nginx-02
   do
     a=$(vagrant ssh-config $i|awk '/Port/ {print $2}')
