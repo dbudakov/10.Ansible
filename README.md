@@ -14,7 +14,7 @@
 Далее из каталога `./10.Ansible/homework` запускаем `playbook`  
 
 ```
-ansible-playbook -i inventory/ nginx.yml
+ansible-playbook -i inventories/ nginx.yml
 ```
 
 
