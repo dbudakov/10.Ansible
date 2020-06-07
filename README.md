@@ -40,3 +40,7 @@ pip
 zsh  
 id_rsa  
 [bashrc](https://pingvinus.ru/note/bash-promt)  
+```
+asnsible-lint - проверка файла ansible
+ansible-vault encrypt_string --vault-password-file pass 'p@ssw0rd' --name 'secret' - шифрование строки
+```
