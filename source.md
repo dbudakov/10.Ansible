@@ -17,3 +17,4 @@ best practice [[docs.ansible.com]](https://docs.ansible.com/ansible/latest/user_
 [дерево в переменных(tree in vars)](https://docs.ansible.com/ansible/latest/plugins/lookup/subelements.html)   
 [multiple_inventory](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#using-multiple-inventory-sources) 
 [ADV-IT об Ansible](https://www.youtube.com/watch?v=Ck1SGolr6GI&list=PLg5SS_4L6LYufspdPupdynbMQTBnZd31N)  
+[Вставить шаблон в шабло jinja](https://jinja.palletsprojects.com/en/2.11.x/templates/#include)  
