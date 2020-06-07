@@ -15,5 +15,5 @@ best practice [[docs.ansible.com]](https://docs.ansible.com/ansible/latest/user_
 [jinja 2 template](https://jinja.palletsprojects.com/en/2.10.x/templates/)  
 [ansible_loop](https://docs.ansible.com/ansible/latest/user_guide/playbooks_loops.html#limiting-loop-output-with-label)  
 [дерево в переменных(tree in vars)](https://docs.ansible.com/ansible/latest/plugins/lookup/subelements.html)   
-[multiple_inventory](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#using-multiple-inventory-sources)  
-
+[multiple_inventory](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#using-multiple-inventory-sources) 
+[ADV-IT об Ansible](https://www.youtube.com/watch?v=Ck1SGolr6GI&list=PLg5SS_4L6LYufspdPupdynbMQTBnZd31N)  
