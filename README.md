@@ -44,3 +44,4 @@ id_rsa
 asnsible-lint - проверка файла ansible
 ansible-vault encrypt_string --vault-password-file pass 'p@ssw0rd' --name 'secret' - шифрование строки
 ```
+Агрегированное инвентори, для vars(https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#using-multiple-inventory-sources)  
